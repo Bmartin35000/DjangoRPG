@@ -1,4 +1,4 @@
-from django.db import models
+"""from django.db import models
 from django.contrib.postgres.fields import ArrayField
 
 class CaseType(models.TextChoices):
@@ -11,4 +11,4 @@ class Labyrinth(models.Model):
     cases = ArrayField(models.CharField(max_length=100)) # todo fix dependencies to use the arrayfield
 
     def __str__(self):
-        return self.cases
+        return self.cases"""

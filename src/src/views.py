@@ -6,7 +6,7 @@ import random
 from character.models import Character
 from django.shortcuts import get_object_or_404
 from enemy.models import EnemyType, Enemy
-from labyrinth.models import Labyrinth
+#from labyrinth.models import Labyrinth
 
 model1 =["#X##########",
         "# ###   O###",
@@ -22,12 +22,12 @@ model1 =["#X##########",
 
 def enterTheDungeon(req, characterId):
     character = get_object_or_404(Character, pk=characterId)    
-    print(model1[0][0])
+    """print(model1[0][0])
     labyrinthe = Labyrinth(cases=model1)
     print(labyrinthe.cases[0][0])
 
     character.numLigne = 4
-    character.numColonne = 6
+    character.numColonne = 6"""
 
     #todo implement discovery function
     
